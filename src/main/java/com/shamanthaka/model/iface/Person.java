@@ -29,4 +29,8 @@ public class Person {
     public String getLastName() {
         return lastName;
     }
+
+    public String toString(){
+        return "[" + this.getLastName() + ", " + this.getLastName() + "]";
+    }
 }
