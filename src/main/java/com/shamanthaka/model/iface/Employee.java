@@ -42,7 +42,28 @@ public class Employee extends Person implements  Comparable<Employee>{
         return 0;
     }
 
+    @Override
     public String toString(){
         return "[" + this.getFirstName() + ", " + this.getLastName() + ", " + this.getEmpNo() + ", " + this.getSalary() +"]";
     }
+
+    @Override
+    public boolean equals(Object obj){
+
+        Employee that = (Employee) obj;
+
+        return this.salary == that.salary && this.empNo.equals(that.empNo)
+                && this.getFirstName().equals(that.getFirstName())
+                && this.getLastName().equals(that.getLastName());
+
+    }
+
+    public int hashCode(){
+        return 5 * (int) this.salary
+                + 7 * this.empNo.hashCode()
+                + 11 * this.getFirstName().hashCode()
+                + 13 * this.getLastName().hashCode();
+    }
+
+
 }

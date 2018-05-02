@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Employee {
 
-    String firstName;
+    protected String firstName;
     protected String lastName;
     protected double salary;
 
