@@ -1,9 +1,17 @@
 package com.shamanthaka.model.exception;
 
+import java.io.PrintStream;
+
 public class Exception6 {
+
+
 
         public static void main(String[] args)
         {
+
+
+
+
             String[] s = {"abc", "123", null, "xyz"};
 
             for (int i = 0; i < 6; i++)
@@ -11,8 +19,7 @@ public class Exception6 {
                 try
                 {
                     int a = s[i].length() + Integer.parseInt(s[i]);
-
-
+                    System.out.println("Value is " + a);
                 }
 
                 catch(NumberFormatException ex)

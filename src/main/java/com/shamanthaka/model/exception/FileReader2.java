@@ -2,7 +2,7 @@ package com.shamanthaka.model.exception;
 
 import java.io.File;
 
-public class FileReader {
+public class FileReader2 {
     public static void main(String[] args){
 
         //un checked exception also known as runtime exception

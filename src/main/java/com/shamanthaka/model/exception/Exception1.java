@@ -1,6 +1,6 @@
 package com.shamanthaka.model.exception;
 
-public class Exception1 {
+public final class Exception1 {
 
     public static void main(String[] args){
 

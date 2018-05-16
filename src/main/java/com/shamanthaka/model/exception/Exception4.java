@@ -14,7 +14,7 @@ public class Exception4 {
         }
         catch(NullPointerException npex)
         {
-            System.out.println(npex);
+            System.out.println(npex.getMessage());
 
             npex.printStackTrace();
         }
