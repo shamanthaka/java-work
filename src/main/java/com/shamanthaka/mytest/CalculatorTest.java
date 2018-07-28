@@ -3,6 +3,7 @@ package com.shamanthaka.mytest;
 import com.shamanthaka.model.overloading.Calculator;
 
 public class CalculatorTest {
+
     public static void main(String[] args){
         Calculator c = new Calculator();
 
@@ -15,3 +16,5 @@ public class CalculatorTest {
         System.out.println(sum);
     }
 }
+
+

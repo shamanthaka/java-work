@@ -9,7 +9,6 @@ public class EmpLLTest {
 
 
         public List process(){
-
             List list = new LinkedList();
             Employee e = new Employee("Vinny","Veerareddy","100",12345678);
             list.add(e);
@@ -23,8 +22,7 @@ public class EmpLLTest {
             return list;
     }
     public static void main(String[] args){
-
-
+            
             com.shamanthaka.collection.EmpLLTest emp = new com.shamanthaka.collection.EmpLLTest();
 
         List list = emp.process();

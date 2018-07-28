@@ -13,7 +13,7 @@ git config user.email --global "john@doe.org"
 git commands to commit code
 
 step1 :
-git remote add origin https://github.com/mindplace/test-repo.git
+git remote add origin https://github.com/shamanthaka/java-work.git
 
 
 
